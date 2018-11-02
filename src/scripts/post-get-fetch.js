@@ -1,10 +1,10 @@
-import API from "./api-call"
+// import API from "./api-call"
 
 
-API.pingContacts()
-.then(entries => 
-...(entries)  
-)
+// API.pingContacts()
+// .then(entries =>
+// ...(entries)
+// )
 
 
 

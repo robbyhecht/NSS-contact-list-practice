@@ -1,10 +1,10 @@
-import API from "./api-call"
+// import domHTML from "./contact-html"
 
 
 
 
 
-
+console.log("hi")
 
 
 
@@ -12,6 +12,12 @@ import API from "./api-call"
 
 
 // In main.js, import the ContactList component and the ContactForm component.
+
+// functions list:
+// domHTML.createContact = html builder function
+// API.pingContacts = api call function
+
+
 
 
 
