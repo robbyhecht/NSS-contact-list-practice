@@ -1,13 +1,11 @@
 // import domHTML from "./contact-html"
+import API from "./api-call"
+import contactInject from "./contact-list-injection"
 
 
-
-
-
-console.log("hi")
-
-
-
+// console.log(domHTML)
+console.log(API)
+console.log(contactInject)
 
 
 
@@ -16,6 +14,7 @@ console.log("hi")
 // functions list:
 // domHTML.createContact = html builder function
 // API.pingContacts = api call function
+// addContact = injects database into the dom
 
 
 

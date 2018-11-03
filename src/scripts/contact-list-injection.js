@@ -1,15 +1,18 @@
-// // make variable for dom insertion
-// const contactList = document.getElementById("contactList")
-// // function for dom insertion
-// let domInsert = {
-//   addContact = (contacts) => {
-//     contacts.forEach((person) => {
-//       contactList.innerHTML += domHTML.createContact(person)
-//     })
-//   }
-// }
+import domHTML from "./contact-html"
 
-// export default domInsert
+// object holds the addContact function
+let contactInject = {
+  // function for dom insertion
+  addContact (contacts) {
+    // make variable for dom injection
+    let contactList = document.getElementById("contactList")
+    // loop through objects returned from database for injection
+    contacts.forEach((person) => {
+      contactList.innerHTML += domHTML.createContact(person)
+    })
+  }
+}
+export default contactInject
 
 
 // A ContactList component that displays all contacts. It should import the Contact (contact-html) component and the ContactCollection component.
