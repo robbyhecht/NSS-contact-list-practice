@@ -1,4 +1,3 @@
-
 const domHTML = {
   createContact (contacts) {
     let contactContent = `

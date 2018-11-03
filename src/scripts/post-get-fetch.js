@@ -1,13 +1,23 @@
-// import API from "./api-call"
+import API from "./api-call"
+import contactInject from "./contact-list-injection"
 
+let apiCall = {
+  // gets data from api
+  getData() {
+    API.pingContacts()
+    .then(entries =>
+      contactInject.addContact(entries)
+    )
+  },
+  // saves data to api
+  // postData() {
+  // API.pingContacts()
+  // .then()
+  // }
 
-// API.pingContacts()
-// .then(entries =>
-// ...(entries)
-// )
+}
 
-
-
+export default apiCall
 
 
 

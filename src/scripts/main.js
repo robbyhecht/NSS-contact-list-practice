@@ -1,11 +1,19 @@
 // import domHTML from "./contact-html"
-import API from "./api-call"
+// import API from "./api-call"
 import contactInject from "./contact-list-injection"
+// import apiCall from "./post-get-fetch"
+
+
+
+
+
+
 
 
 // console.log(domHTML)
-console.log(API)
+// console.log(API)
 console.log(contactInject)
+// console.log(apiCall)
 
 
 
