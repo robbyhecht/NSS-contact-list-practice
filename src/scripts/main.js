@@ -8,3 +8,4 @@ api.getContacts()
 .then(entries => {
   contactInject.addContact(entries)
 })
+
