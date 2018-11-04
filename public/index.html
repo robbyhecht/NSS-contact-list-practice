@@ -10,9 +10,44 @@
 
   <h1>Contact List</h1>
 
-  
+  <form action="" class="contactForm">
 
-  <article class="contactList">
+      <!-- first name -->
+    <fieldset>
+      <label for="firstName" class="first">First Name</label>
+      <input type="text" name="firstName" id="firstName" class="input">
+      <br>
+    </fieldset>
+      <!-- last name -->
+      <fieldset>
+          <label for="lastName" class="last">Last Name</label>
+          <input type="text" name="lastName" id="lastName" class="input">
+          <br>
+        </fieldset>
+      <!-- phone number -->
+      <fieldset>
+          <label for="phone" class="phone">Phone Number</label>
+          <input type="text" name="phoneNumber" id="phoneNumber" class="input">
+          <br>
+        </fieldset>
+      <!-- address -->
+      <fieldset>
+          <label for="address" class="address">Address</label>
+          <input type="text" name="userStreet" id="userStreet" class="input">
+          <input type="text" name="userCity" id="userCity" class="input">
+          <input type="text" name="userState" id="userState" class="input">
+          <br>
+        </fieldset>
+      <!-- record button -->
+    <fieldset>
+      <span class="record">
+        <input type="submit" value="submit" id="submitButton">
+      </span>
+    </fieldset>
+
+  </form>
+
+  <article id="contactList">
   </article>
 
 

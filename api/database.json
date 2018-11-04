@@ -1,11 +1,27 @@
 {
   "contacts": [
     {
-      "id": "",
-      "firstName": "",
-      "lastName": "",
-      "phone": "",
-      "address": ""
+      "id": 1,
+      "firstName": "Spruce",
+      "lastName": "Bringsteen",
+      "phone": "888-888-8888",
+      "address": {
+        "street": "123 USA Blvd",
+        "city": "Freehold",
+        "state": "NJ"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Dob",
+      "lastName": "Bylan",
+      "phone": "666-666-6666",
+      "address": {
+        "street": "456 4th St",
+        "city": "Hibbing",
+        "state": "MN"
+      }
+    
     }
   ]
 }

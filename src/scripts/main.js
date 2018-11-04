@@ -1,28 +1,10 @@
+import api from "./api.js"
+import contactInject from "./contact-list-injection"
 
 
-
-
-
-
-
-
-
-
-
-
-
-// In main.js, import the ContactList component and the ContactForm component.
-
-
-
-
-// ----
-
-// import sayHello from "./hello"
-// import sayGoodbye from "./goodbye"
-// import SandwichMaker from "./sandwichMaker"
-
-// sayHello()
-// sayGoodbye()
-
-// SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// collect data
+api.getContacts()
+// run it through the contact dom injection function
+.then(entries => {
+  contactInject.addContact(entries)
+})
