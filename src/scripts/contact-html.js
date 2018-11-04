@@ -1,3 +1,4 @@
+
 const domHTML = {
   createContact (contacts) {
     let contactContent = `
@@ -12,6 +13,8 @@ const domHTML = {
 }
 
 export default domHTML
+// the dom content is created
+
 
 
 

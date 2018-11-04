@@ -1,41 +1,10 @@
-// import domHTML from "./contact-html"
-// import API from "./api-call"
+import api from "./api.js"
 import contactInject from "./contact-list-injection"
-// import apiCall from "./post-get-fetch"
 
 
-
-
-
-
-
-
-// console.log(domHTML)
-// console.log(API)
-console.log(contactInject)
-// console.log(apiCall)
-
-
-
-// In main.js, import the ContactList component and the ContactForm component.
-
-// functions list:
-// domHTML.createContact = html builder function
-// API.pingContacts = api call function
-// addContact = injects database into the dom
-
-
-
-
-
-
-// ----
-
-// import sayHello from "./hello"
-// import sayGoodbye from "./goodbye"
-// import SandwichMaker from "./sandwichMaker"
-
-// sayHello()
-// sayGoodbye()
-
-// SandwichMaker.placeOrder("rye", "capicola", "provolone")
+// collect data
+api.getContacts()
+// run it through the contact dom injection function
+.then(entries => {
+  contactInject.addContact(entries)
+})
