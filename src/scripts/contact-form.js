@@ -1,13 +1,31 @@
+// // import api from "./api"
 
-// let submitButton = document.getElementById("submitButton")
-// let contactForm = document.getElementsByClassName("contactForm")
+// let eventListen = {
+//   eventFunction () {
+//     let submitButton = document.getElementById("submitButton")
+//     submitButton.addEventListener("click", function() {
+//       event.preventDefault()
+//       console.log("button click")
+//     })
+//   }
+// }
 
-// submitButton.addEventListener("click", function() {
-//   let contactClick = contactForm.value
-// })
+// export default eventListen
 
 
 
+// let eventListener = {
+//   eventListenerFunc = function() {
+//     let submitButton = document.getElementById("submitButton")
+//     // let contactForm = document.getElementsByClassName("contactForm")
+//     submitButton.addEventListener("click", function() {
+//     })
+//     console.log("button click")
+//       // let contactClick = contactForm.value
+//   }
+// }
+
+// export default eventListener
 
 
 

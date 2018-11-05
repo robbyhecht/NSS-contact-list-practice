@@ -3,14 +3,15 @@ const api = {
       return fetch("http://localhost:8088/contacts")
       .then(response => response.json())
     },
-    postContacts () {
+    postContacts (obj) {
       return fetch("http://localhost:8088/contacts", {
-        method: 'POST',
-        body: JSON.stringify(object),
-        headers:{'Content-type': 'application.json'}
+        method: "POST",
+        body: JSON.stringify(obj),
+        headers:{"Content-type": "application.json"}
       }
     )
   }
 }
 
 export default api
+// (see main.js)
